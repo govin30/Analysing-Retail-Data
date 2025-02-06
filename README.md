@@ -1,31 +1,19 @@
-With the retail market getting more and more competitive by the day, there has never been
-anything more important than the ability for optimizing service business processes when
-trying to satisfy the expectations of customers. Channelizing and managing data with the
-aim of working in favor of the customer as well as generating profits is very significant for
-survival.
-Ideally, a retailer’s customer data reflects the company’s success in reaching and nurturing
-its customers. Retailers built reports summarizing customer behavior using metrics such as
-conversion rate, average order value, recency of purchase and total amount spent in recent
-transactions. These measurements provided general insight into the behavioral tendencies
-of customers.
-Customer intelligence is the practice of determining and delivering data-driven insights into
-past and predicted future customer behavior.To be effective, customer intelligence must
-combine raw transactional and behavioral data to generate derived measures.
-In a nutshell, for big retail players all over the world, data analytics is applied more these
-days at all stages of the retail process – taking track of popular products that are emerging,
-doing forecasts of sales and future demand via predictive simulation, optimizing placements
-of products and offers through heat-mapping of customers and many others.
+The retail industry is evolving rapidly, with competition driving the need for data-driven decision-making. Leveraging data analytics allows retailers to gain valuable insights into customer behavior, product performance, and transaction trends, ena-bling them to enhance customer satisfaction and drive profitability. Retailers increas-ingly rely on customer intelligence to predict future behaviors, optimize inventory, and design personalized marketing strategies.
 
-About the Data
-A Retail store is required to analyze the day-to-day transactions and keep a track of its customers spread across various locations along with their purchases/returns across various categories.
+The objective of the assignment are as follows;
+1)	To employ data cleaning techniques for improved retail data quality
+2)	To examine the complexity in the data for optimal dimensionality
+3)	To visualize the pre-processed data and identify patterns between attributes
 
-What can be done with the data?
-Create a report and display the calculated metrics, reports and inferences.
+Data Cleaning
+1) Missing Values - Missing values has been screened and they have been replaced with the mode since the they were categorical data
+2) Negative Values - There could be no negative value on the total amount and they were converted into positives. Negative values indicated items being returned
+3) Duplicated rows - Both the duplicated rows were deleted as one of them were initially negative value which were indicating return
+4) Handling Outlier / Missing values - The interquartile range method was used to remove any outliers to produce better data
+   ![image](https://github.com/user-attachments/assets/4a762082-f636-4316-82d0-e5c73319dd9c)
+  ![image](https://github.com/user-attachments/assets/a6062f1f-02d3-4a73-bed9-fa47778b0d66)
+5) Attribute Transformation - Date of birth were converted into age and date of purchase were converted into month of purchase to ease the analysis along the way
+6) Feature Selectiom - Attribute which contribute least information for the analysis is removed
 
-Data Schema
-This book has three sheets (Customer, Transaction, Product Hierarchy):
-
-Customer: Customer information including demographics
-Transaction: Transaction of customers
-Product Hierarchy: Product information
-![image](https://github.com/user-attachments/assets/4f76e616-5f1b-4fee-a9e7-fc193a6d60de)
+Exploratory Data Analysis (EDA
+1) Normality Check
