@@ -28,3 +28,4 @@ This book has three sheets (Customer, Transaction, Product Hierarchy):
 Customer: Customer information including demographics
 Transaction: Transaction of customers
 Product Hierarchy: Product information
+![image](https://github.com/user-attachments/assets/4f76e616-5f1b-4fee-a9e7-fc193a6d60de)
