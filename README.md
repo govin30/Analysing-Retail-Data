@@ -16,4 +16,8 @@ Data Cleaning
 6) Feature Selectiom - Attribute which contribute least information for the analysis is removed
 
 Exploratory Data Analysis (EDA
-1) Normality Check
+1) Normality Check - Shapiro-Wilk Test is used to check the normality
+
+![image](https://github.com/user-attachments/assets/ce2bd043-c50e-487f-b425-91fa6a01b52f)
+
+p-value obtained was 0.0000 thus rejecting H_0 indicating the data is nor normally distributed. The issue of p-value almost close to 0 is because the observation size is large. To confirm the inference, Anderson-Darling test is carried on. 
